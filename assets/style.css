@@ -180,7 +180,7 @@ html {
   font-weight: 600;
   font-family: var(--ff-2);
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
 }
 
 .header .hamburger {
@@ -675,6 +675,10 @@ footer .social-icon {
     color: var(--White);
     font-size: 15px;
   }
+
+  .sidebar .contact-btn { background: var(--White); }
+
+  .header.active .sidebar .contact-btn { background: var(--Yellow); }
 
   .header.active .sidebar-list .sidebar-item a { color: var(--Very-dark-desaturated-blue); }
 
